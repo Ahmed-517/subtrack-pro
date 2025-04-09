@@ -1,1 +1,5 @@
-import { Client as wokflowClient } from "@upstash/workflow";
+import { Client as workflowClient } from "@upstash/workflow";
+
+import { QSTASH_URL, QSTASH_TOKEN } from "./env.js";
+
+
